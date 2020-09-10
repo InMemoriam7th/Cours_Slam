@@ -1,0 +1,39 @@
+main{
+    max-width: 45rem;    
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+h1::before{
+    content: "\267F";
+}
+h2{
+    width: auto;
+    text-align: center;
+    background-color: #3867d6;
+    color: #d2dae2;
+}
+ul{
+    max-width: 45rem;
+}
+ul li{
+    line-height: 5rem;
+    width: 45rem;
+}
+ul li:nth-child(2n+1){
+    background-color: #cd6133 ;
+}
+ul li:nth-child(2n+2){
+    background-color:#e1b12c ;
+}
+ul li img{
+    display: block;
+    max-width: 100%;
+}
+.access{
+    filter: grayscale(100);
+    color: white;
+    background: black;
+}
