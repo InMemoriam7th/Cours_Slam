@@ -16,10 +16,10 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     console.table(machine_a_laver);
     console.log(machine_a_laver);
-    el.innerHTML+=`<li itemprop="Manufacturer">Marque :${machine_a_laver.marque}</li>
-                <li>Prix :${machine_a_laver.prix}</li>
-                <li itemprop="hasEnergyConsumptionDetails">Consommation :${machine_a_laver.consommation}</li>
-                <li itemprop="model">Matricule :${machine_a_laver.matricule}</li>
+    el.innerHTML+=`<li itemprop="offeredBy">Marque :${machine_a_laver.marque}</li>
+                <li itemprop="price">Prix :${machine_a_laver.prix}</li>
+                <li itemprop="review">Consommation :${machine_a_laver.consommation}</li>
+                <li itemprop="mpn">Matricule :${machine_a_laver.matricule}</li>
                 <li><img src="${machine_a_laver.modele}" alt="machine a laver"></img></li>
                 `
 
