@@ -1,0 +1,22 @@
+//objet et constructeur
+
+	let lang = {
+
+			init: function(nom,date){ //constructeur
+				this.nom = nom;
+				this.date = date;
+			},
+			printOut(){//getter
+				const desc = this.nom+' '+this.date;
+				return desc;
+			},
+			
+			el:document.createElement("ul")
+			
+			}
+    
+    let lang_1 = Object.create(lang)
+    lang_1.init("HTML", 1990)
+    let affiche = lang_1.printOut()
+    console.log(affiche)
+
