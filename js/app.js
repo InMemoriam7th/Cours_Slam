@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     let el = document.querySelector(`ul`);
     let machine_a_laver = {
-        marque: "brand",
+        marque: "brandt",
         prix: "399€",
         consommation:  "700W/h" ,
         matricule:  "Bxma37",
